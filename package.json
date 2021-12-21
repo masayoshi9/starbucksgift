@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "set TAILWIND_MODE=watch&&postcss styles.css -o dist.css -w"
-    // "build": "NODE_ENV=production postcss styles.css -o dist.css"
   },
   "keywords": [],
   "author": "",
