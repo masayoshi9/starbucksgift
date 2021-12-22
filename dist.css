@@ -380,7 +380,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.translate-x-0, .translate-y-0, .translate-y-\[-1037px\], .scale-\[0\], .scale-\[1\] {
+.translate-x-0, .translate-y-0, .translate-y-\[-1037px\], .translate-y-\[calc\(-1037\/750\*100vw\)\], .scale-\[1\] {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -410,20 +410,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .left-0 {
   left: 0px;
 }
-.top-\[12px\] {
-  top: 12px;
+.top-\[calc\(12\/750\*100vw\)\] {
+  top: calc(12 / 750 * 100vw);
 }
-.right-\[20px\] {
-  right: 20px;
+.right-\[calc\(20\/750\*100vw\)\] {
+  right: calc(20 / 750 * 100vw);
 }
-.top-\[-135px\] {
-  top: -135px;
+.top-\[calc\(-135\/750\*100vw\)\] {
+  top: calc(-135 / 750 * 100vw);
 }
-.top-\[124px\] {
-  top: 124px;
+.top-\[calc\(124\/750\*100vw\)\] {
+  top: calc(124 / 750 * 100vw);
 }
-.left-\[406px\] {
-  left: 406px;
+.left-\[calc\(406\/750\*100vw\)\] {
+  left: calc(406 / 750 * 100vw);
 }
 .top-\[358px\] {
   top: 358px;
@@ -497,11 +497,77 @@ Ensure the default browser behavior of the `hidden` attribute.
 .left-\[52px\] {
   left: 52px;
 }
-.top-\[calc\(12\/750\*100vw\)\] {
-  top: calc(12 / 750 * 100vw);
+.top-\[calc\(358\/750\*100vw\)\] {
+  top: calc(358 / 750 * 100vw);
 }
-.right-\[calc\(20\/750\*100vw\)\] {
-  right: calc(20 / 750 * 100vw);
+.left-\[calc\(380\/750\*100vw\)\] {
+  left: calc(380 / 750 * 100vw);
+}
+.top-\[calc\(335\/750\*100vw\)\] {
+  top: calc(335 / 750 * 100vw);
+}
+.left-\[calc\(470\/750\*100vw\)\] {
+  left: calc(470 / 750 * 100vw);
+}
+.top-\[calc\(354\/750\*100vw\)\] {
+  top: calc(354 / 750 * 100vw);
+}
+.left-\[calc\(662\/750\*100vw\)\] {
+  left: calc(662 / 750 * 100vw);
+}
+.top-\[calc\(270\/750\*100vw\)\] {
+  top: calc(270 / 750 * 100vw);
+}
+.left-\[calc\(431\/750\*100vw\)\] {
+  left: calc(431 / 750 * 100vw);
+}
+.top-\[calc\(689\/750\*100vw\)\] {
+  top: calc(689 / 750 * 100vw);
+}
+.left-\[calc\(186\/750\*100vw\)\] {
+  left: calc(186 / 750 * 100vw);
+}
+.top-\[calc\(622\/750\*100vw\)\] {
+  top: calc(622 / 750 * 100vw);
+}
+.left-\[calc\(185\/750\*100vw\)\] {
+  left: calc(185 / 750 * 100vw);
+}
+.top-\[calc\(681\/750\*100vw\)\] {
+  top: calc(681 / 750 * 100vw);
+}
+.left-\[calc\(520\/750\*100vw\)\] {
+  left: calc(520 / 750 * 100vw);
+}
+.top-\[calc\(676\/750\*100vw\)\] {
+  top: calc(676 / 750 * 100vw);
+}
+.left-\[calc\(55\/750\*100vw\)\] {
+  left: calc(55 / 750 * 100vw);
+}
+.top-\[calc\(912\/750\*100vw\)\] {
+  top: calc(912 / 750 * 100vw);
+}
+.left-\[calc\(381\/750\*100vw\)\] {
+  left: calc(381 / 750 * 100vw);
+}
+.top-\[calc\(1001\/750\*100vw\)\] {
+  top: calc(1001 / 750 * 100vw);
+}
+.left-\[calc\(-22\/750\*100vw\)\] {
+  left: calc(-22 / 750 * 100vw);
+}
+.top-\[calc\(1180\/750\*100vw\)\] {
+  top: calc(1180 / 750 * 100vw);
+}
+.left-\[calc\(608\/750\*100vw\)\] {
+  left: calc(608 / 750 * 100vw);
+}
+.top-\[calc\(1002\/750\*100vw\)\] {
+  top: calc(1002 / 750 * 100vw);
+}
+.left-\[calc\(52\/750\*100vw\)\] {
+  left: calc(52 / 750 * 100vw);
 }
 .z-\[1010\] {
   z-index: 1010;
@@ -547,27 +613,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mr-0 {
   margin-right: 0px;
 }
-.ml-\[46px\] {
-  margin-left: 46px;
-}
-.mt-\[29px\] {
-  margin-top: 29px;
-}
-.mb-0 {
-  margin-bottom: 0px;
-}
-.ml-\[48px\] {
-  margin-left: 48px;
-}
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-.mb-\[3306px\] {
-  margin-bottom: 3306px;
-}
-.ml-\[51px\] {
-  margin-left: 51px;
-}
 .ml-\[calc\(46\/750\*100vw\)\] {
   margin-left: calc(46 / 750 * 100vw);
 }
@@ -576,6 +621,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .ml-\[calc\(48\/750\*100vw\)\] {
   margin-left: calc(48 / 750 * 100vw);
+}
+.mb-0 {
+  margin-bottom: 0px;
 }
 .mt-\[calc\(30\/750\*100vw\)\] {
   margin-top: calc(30 / 750 * 100vw);
@@ -619,20 +667,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-auto {
   height: auto;
 }
-.h-\[198px\] {
-  height: 198px;
+.h-\[calc\(198\/750\*100vw\)\] {
+  height: calc(198 / 750 * 100vw);
 }
-.h-\[269px\] {
-  height: 269px;
+.h-\[calc\(269\/750\*100vw\)\] {
+  height: calc(269 / 750 * 100vw);
 }
-.h-\[26px\] {
-  height: 26px;
+.h-\[calc\(26\/750\*100vw\)\] {
+  height: calc(26 / 750 * 100vw);
 }
-.h-\[1037px\] {
-  height: 1037px;
+.h-\[calc\(1037\/750\*100vw\)\] {
+  height: calc(1037 / 750 * 100vw);
 }
-.h-\[85px\] {
-  height: 85px;
+.h-\[calc\(85\/750\*100vw\)\] {
+  height: calc(85 / 750 * 100vw);
 }
 .h-\[44px\] {
   height: 44px;
@@ -670,14 +718,38 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[241px\] {
   height: 241px;
 }
-.h-\[calc\(198\/750\*100vw\)\] {
-  height: calc(198 / 750 * 100vw);
+.h-\[calc\(44\/750\*100vw\)\] {
+  height: calc(44 / 750 * 100vw);
 }
-.h-\[calc\(269\/750\*100vw\)\] {
-  height: calc(269 / 750 * 100vw);
+.h-\[calc\(238\/750\*100vw\)\] {
+  height: calc(238 / 750 * 100vw);
 }
-.h-\[calc\(26\/750\*100vw\)\] {
-  height: calc(26 / 750 * 100vw);
+.h-\[calc\(283\/750\*100vw\)\] {
+  height: calc(283 / 750 * 100vw);
+}
+.h-\[calc\(292\/750\*100vw\)\] {
+  height: calc(292 / 750 * 100vw);
+}
+.h-\[calc\(351\/750\*100vw\)\] {
+  height: calc(351 / 750 * 100vw);
+}
+.h-\[calc\(329\/750\*100vw\)\] {
+  height: calc(329 / 750 * 100vw);
+}
+.h-\[calc\(121\/750\*100vw\)\] {
+  height: calc(121 / 750 * 100vw);
+}
+.h-\[calc\(321\/750\*100vw\)\] {
+  height: calc(321 / 750 * 100vw);
+}
+.h-\[calc\(215\/750\*100vw\)\] {
+  height: calc(215 / 750 * 100vw);
+}
+.h-\[calc\(90\/750\*100vw\)\] {
+  height: calc(90 / 750 * 100vw);
+}
+.h-\[calc\(241\/750\*100vw\)\] {
+  height: calc(241 / 750 * 100vw);
 }
 .min-h-0 {
   min-height: 0px;
@@ -706,20 +778,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[40px\] {
   width: 40px;
 }
-.w-\[260px\] {
-  width: 260px;
+.w-\[calc\(260\/750\*100vw\)\] {
+  width: calc(260 / 750 * 100vw);
 }
-.w-\[198px\] {
-  width: 198px;
+.w-\[calc\(198\/750\*100vw\)\] {
+  width: calc(198 / 750 * 100vw);
 }
-.w-\[379px\] {
-  width: 379px;
+.w-\[calc\(379\/750\*100vw\)\] {
+  width: calc(379 / 750 * 100vw);
 }
-.w-\[391px\] {
-  width: 391px;
+.w-\[calc\(391\/750\*100vw\)\] {
+  width: calc(391 / 750 * 100vw);
 }
-.w-\[130px\] {
-  width: 130px;
+.w-\[calc\(130\/750\*100vw\)\] {
+  width: calc(130 / 750 * 100vw);
 }
 .w-\[53px\] {
   width: 53px;
@@ -745,6 +817,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[68px\] {
   width: 68px;
 }
+.w-\[198px\] {
+  width: 198px;
+}
 .w-\[371px\] {
   width: 371px;
 }
@@ -754,20 +829,38 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[275px\] {
   width: 275px;
 }
-.w-\[calc\(260\/750\)\] {
-  width: calc(260 / 750);
+.w-\[calc\(53\/750\*100vw\)\] {
+  width: calc(53 / 750 * 100vw);
 }
-.w-\[calc\(260\/750\*100vw\)\] {
-  width: calc(260 / 750 * 100vw);
+.w-\[calc\(360\/750\*100vw\)\] {
+  width: calc(360 / 750 * 100vw);
 }
-.w-\[calc\(198\/750\*100vw\)\] {
-  width: calc(198 / 750 * 100vw);
+.w-\[calc\(104\/750\*100vw\)\] {
+  width: calc(104 / 750 * 100vw);
 }
-.w-\[calc\(379\/750\*100vw\)\] {
-  width: calc(379 / 750 * 100vw);
+.w-\[calc\(257\/750\*100vw\)\] {
+  width: calc(257 / 750 * 100vw);
 }
-.w-\[calc\(391\/750\*100vw\)\] {
-  width: calc(391 / 750 * 100vw);
+.w-\[calc\(542\/750\*100vw\)\] {
+  width: calc(542 / 750 * 100vw);
+}
+.w-\[calc\(382\/750\*100vw\)\] {
+  width: calc(382 / 750 * 100vw);
+}
+.w-\[calc\(222\/750\*100vw\)\] {
+  width: calc(222 / 750 * 100vw);
+}
+.w-\[calc\(68\/750\*100vw\)\] {
+  width: calc(68 / 750 * 100vw);
+}
+.w-\[calc\(371\/750\*100vw\)\] {
+  width: calc(371 / 750 * 100vw);
+}
+.w-\[calc\(138\/750\*100vw\)\] {
+  width: calc(138 / 750 * 100vw);
+}
+.w-\[calc\(275\/750\*100vw\)\] {
+  width: calc(275 / 750 * 100vw);
 }
 .min-w-\[320px\] {
   min-width: 320px;
@@ -793,9 +886,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-translate-y: -1037px;
   transform: var(--tw-transform);
 }
-.scale-\[0\] {
-  --tw-scale-x: 0;
-  --tw-scale-y: 0;
+.translate-y-\[calc\(-1037\/750\*100vw\)\] {
+  --tw-translate-y: calc(-1037 / 750 * 100vw);
   transform: var(--tw-transform);
 }
 .scale-\[1\] {
@@ -806,11 +898,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 @-webkit-keyframes topItemsPop1key {
 
   0% {
-    transform: translate(0px, 15px);
+    transform: translate(0px, calc(15/750*100vw));
   }
 
   40% {
-    transform: translate(0px, -15px);
+    transform: translate(0px, calc(-15/750*100vw));
   }
 
   100% {
@@ -820,11 +912,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 @keyframes topItemsPop1key {
 
   0% {
-    transform: translate(0px, 15px);
+    transform: translate(0px, calc(15/750*100vw));
   }
 
   40% {
-    transform: translate(0px, -15px);
+    transform: translate(0px, calc(-15/750*100vw));
   }
 
   100% {
@@ -842,7 +934,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, -8px);
+    transform: translate(0px, calc(-8/750*100vw));
   }
 }
 @keyframes float3key {
@@ -852,7 +944,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, -8px);
+    transform: translate(0px, calc(-8/750*100vw));
   }
 }
 .animate-float3 {
@@ -866,7 +958,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, 6px);
+    transform: translate(0px, calc(6/750*100vw));
   }
 }
 @keyframes float4key {
@@ -876,7 +968,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, 6px);
+    transform: translate(0px, calc(6/750*100vw));
   }
 }
 .animate-float4 {
@@ -886,11 +978,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 @-webkit-keyframes topItemsPop3key {
 
   0% {
-    transform: translate(0px, 30px);
+    transform: translate(0px, calc(30/750*100vw));
   }
 
   40% {
-    transform: translate(0px, -30px);
+    transform: translate(0px, calc(-30/750*100vw));
   }
 
   100% {
@@ -900,11 +992,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 @keyframes topItemsPop3key {
 
   0% {
-    transform: translate(0px, 30px);
+    transform: translate(0px, calc(30/750*100vw));
   }
 
   40% {
-    transform: translate(0px, -30px);
+    transform: translate(0px, calc(-30/750*100vw));
   }
 
   100% {
@@ -922,7 +1014,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, 10px);
+    transform: translate(0px, calc(10/750*100vw));
   }
 }
 @keyframes float2key {
@@ -932,7 +1024,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, 10px);
+    transform: translate(0px, calc(10/750*100vw));
   }
 }
 .animate-float2 {
@@ -946,7 +1038,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, -12px);
+    transform: translate(0px, calc(-12/750*100vw));
   }
 }
 @keyframes float1key {
@@ -956,7 +1048,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   100% {
-    transform: translate(0px, -12px);
+    transform: translate(0px, calc(-12/750*100vw));
   }
 }
 .animate-float1 {
@@ -1013,14 +1105,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[length\:3\%\] {
   background-size: 3%;
 }
-.bg-cover {
-  background-size: cover;
-}
 .bg-contain {
   background-size: contain;
 }
-.bg-auto {
-  background-size: auto;
+.bg-cover {
+  background-size: cover;
 }
 .bg-\[center_top\] {
   background-position: center top;
@@ -1064,23 +1153,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pr-\[20px\] {
   padding-right: 20px;
 }
-.pt-\[53px\] {
-  padding-top: 53px;
-}
-.pt-\[18px\] {
-  padding-top: 18px;
-}
-.pb-\[21px\] {
-  padding-bottom: 21px;
-}
 .pt-\[calc\(53\/750\*100vw\)\] {
   padding-top: calc(53 / 750 * 100vw);
 }
 .pt-\[calc\(18\/750\*100vw\)\] {
   padding-top: calc(18 / 750 * 100vw);
-}
-.pb-\[calc\(260\/750\*100vw\)\] {
-  padding-bottom: calc(260 / 750 * 100vw);
 }
 .pb-\[calc\(21\/750\*100vw\)\] {
   padding-bottom: calc(21 / 750 * 100vw);
@@ -1108,9 +1185,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .text-\[16px\] {
   font-size: 16px;
-}
-.text-\[26px\] {
-  font-size: 26px;
 }
 .text-\[calc\(26\/750\*100vw\)\] {
   font-size: calc(26 / 750 * 100vw);
@@ -1193,14 +1267,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: var(--tw-content);
   display: block;
 }
-.before\:h-\[4px\]::before {
-  content: var(--tw-content);
-  height: 4px;
-}
-.before\:h-\[calc\(26\/750\*100vw\)\]::before {
-  content: var(--tw-content);
-  height: calc(26 / 750 * 100vw);
-}
 .before\:h-\[calc\(4\/750\*100vw\)\]::before {
   content: var(--tw-content);
   height: calc(4 / 750 * 100vw);
@@ -1256,17 +1322,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: auto;
   margin-right: auto;
 }
-.after\:h-\[4px\]::after {
+.after\:h-\[calc\(4\/750\*100vw\)\]::after {
   content: var(--tw-content);
-  height: 4px;
+  height: calc(4 / 750 * 100vw);
 }
 .after\:h-full::after {
   content: var(--tw-content);
   height: 100%;
-}
-.after\:h-\[calc\(4\/750\*100vw\)\]::after {
-  content: var(--tw-content);
-  height: calc(4 / 750 * 100vw);
 }
 .after\:w-full::after {
   content: var(--tw-content);

@@ -20,34 +20,37 @@ module.exports = {
       },
       keyframes: {
         feedinkey: {
-          "0%": { opacity: "0", transform: "translate(0px, 20px)" },
+          "0%": {
+            opacity: "0",
+            transform: "translate(0px, calc(20/750*100vw))",
+          },
           "100%": { opacity: "1", transform: "translate(0px, 0px)" },
         },
         topItemsPop1key: {
-          "0%": { transform: "translate(0px, 15px)" },
-          "40%": { transform: "translate(0px, -15px)" },
+          "0%": { transform: "translate(0px, calc(15/750*100vw))" },
+          "40%": { transform: "translate(0px, calc(-15/750*100vw))" },
           "100%": { transform: "translate(0px, 0px)" },
         },
         topItemsPop3key: {
-          "0%": { transform: "translate(0px, 30px)" },
-          "40%": { transform: "translate(0px, -30px)" },
+          "0%": { transform: "translate(0px, calc(30/750*100vw))" },
+          "40%": { transform: "translate(0px, calc(-30/750*100vw))" },
           "100%": { transform: "translate(0px, 0px)" },
         },
         float1key: {
           "0%": { transform: "translate(0px, 0px)" },
-          "100%": { transform: "translate(0px, -12px)" },
+          "100%": { transform: "translate(0px, calc(-12/750*100vw))" },
         },
         float2key: {
           "0%": { transform: "translate(0px, 0px)" },
-          "100%": { transform: "translate(0px, 10px)" },
+          "100%": { transform: "translate(0px, calc(10/750*100vw))" },
         },
         float3key: {
           "0%": { transform: "translate(0px, 0px)" },
-          "100%": { transform: "translate(0px, -8px)" },
+          "100%": { transform: "translate(0px, calc(-8/750*100vw))" },
         },
         float4key: {
           "0%": { transform: "translate(0px, 0px)" },
-          "100%": { transform: "translate(0px, 6px)" },
+          "100%": { transform: "translate(0px, calc(6/750*100vw))" },
         },
       },
     },
