@@ -497,6 +497,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .left-\[52px\] {
   left: 52px;
 }
+.top-\[calc\(12\/750\*100vw\)\] {
+  top: calc(12 / 750 * 100vw);
+}
+.right-\[calc\(20\/750\*100vw\)\] {
+  right: calc(20 / 750 * 100vw);
+}
 .z-\[1010\] {
   z-index: 1010;
 }
@@ -561,6 +567,24 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .ml-\[51px\] {
   margin-left: 51px;
+}
+.ml-\[calc\(46\/750\*100vw\)\] {
+  margin-left: calc(46 / 750 * 100vw);
+}
+.mt-\[calc\(29\/750\*100vw\)\] {
+  margin-top: calc(29 / 750 * 100vw);
+}
+.ml-\[calc\(48\/750\*100vw\)\] {
+  margin-left: calc(48 / 750 * 100vw);
+}
+.mt-\[calc\(30\/750\*100vw\)\] {
+  margin-top: calc(30 / 750 * 100vw);
+}
+.mb-\[calc\(3306\/750\*100vw\)\] {
+  margin-bottom: calc(3306 / 750 * 100vw);
+}
+.ml-\[calc\(51\/750\*100vw\)\] {
+  margin-left: calc(51 / 750 * 100vw);
 }
 .box-border {
   box-sizing: border-box;
@@ -646,11 +670,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[241px\] {
   height: 241px;
 }
+.h-\[calc\(198\/750\*100vw\)\] {
+  height: calc(198 / 750 * 100vw);
+}
+.h-\[calc\(269\/750\*100vw\)\] {
+  height: calc(269 / 750 * 100vw);
+}
+.h-\[calc\(26\/750\*100vw\)\] {
+  height: calc(26 / 750 * 100vw);
+}
 .min-h-0 {
   min-height: 0px;
-}
-.min-h-\[600px\] {
-  min-height: 600px;
 }
 .min-h-\[100vh\] {
   min-height: 100vh;
@@ -660,6 +690,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-\[18\%\] {
   width: 18%;
+}
+.w-\[35px\] {
+  width: 35px;
 }
 .w-\[80\%\] {
   width: 80%;
@@ -721,8 +754,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[275px\] {
   width: 275px;
 }
-.w-\[35px\] {
-  width: 35px;
+.w-\[calc\(260\/750\)\] {
+  width: calc(260 / 750);
+}
+.w-\[calc\(260\/750\*100vw\)\] {
+  width: calc(260 / 750 * 100vw);
+}
+.w-\[calc\(198\/750\*100vw\)\] {
+  width: calc(198 / 750 * 100vw);
+}
+.w-\[calc\(379\/750\*100vw\)\] {
+  width: calc(379 / 750 * 100vw);
+}
+.w-\[calc\(391\/750\*100vw\)\] {
+  width: calc(391 / 750 * 100vw);
 }
 .min-w-\[320px\] {
   min-width: 320px;
@@ -961,22 +1006,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(213 0 50 / var(--tw-bg-opacity));
 }
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
-}
 .bg-green-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(20 83 45 / var(--tw-bg-opacity));
-}
-.bg-contain {
-  background-size: contain;
 }
 .bg-\[length\:3\%\] {
   background-size: 3%;
 }
 .bg-cover {
   background-size: cover;
+}
+.bg-contain {
+  background-size: contain;
+}
+.bg-auto {
+  background-size: auto;
 }
 .bg-\[center_top\] {
   background-position: center top;
@@ -1000,10 +1044,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
-}
-.px-\[25px\] {
-  padding-left: 25px;
-  padding-right: 25px;
 }
 .px-0 {
   padding-left: 0px;
@@ -1033,6 +1073,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pb-\[21px\] {
   padding-bottom: 21px;
 }
+.pt-\[calc\(53\/750\*100vw\)\] {
+  padding-top: calc(53 / 750 * 100vw);
+}
+.pt-\[calc\(18\/750\*100vw\)\] {
+  padding-top: calc(18 / 750 * 100vw);
+}
+.pb-\[calc\(260\/750\*100vw\)\] {
+  padding-bottom: calc(260 / 750 * 100vw);
+}
+.pb-\[calc\(21\/750\*100vw\)\] {
+  padding-bottom: calc(21 / 750 * 100vw);
+}
 .text-center {
   text-align: center;
 }
@@ -1054,14 +1106,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[120\%\] {
   font-size: 120%;
 }
-.text-\[125\%\] {
-  font-size: 125%;
-}
 .text-\[16px\] {
   font-size: 16px;
 }
 .text-\[26px\] {
   font-size: 26px;
+}
+.text-\[calc\(26\/750\*100vw\)\] {
+  font-size: calc(26 / 750 * 100vw);
 }
 .font-normal {
   font-weight: 400;
@@ -1087,10 +1139,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 .opacity-100 {
   opacity: 1;
@@ -1145,17 +1193,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: var(--tw-content);
   display: block;
 }
-.before\:h-\[35px\]::before {
-  content: var(--tw-content);
-  height: 35px;
-}
 .before\:h-\[4px\]::before {
   content: var(--tw-content);
   height: 4px;
 }
-.before\:w-\[35px\]::before {
+.before\:h-\[calc\(26\/750\*100vw\)\]::before {
   content: var(--tw-content);
-  width: 35px;
+  height: calc(26 / 750 * 100vw);
+}
+.before\:h-\[calc\(4\/750\*100vw\)\]::before {
+  content: var(--tw-content);
+  height: calc(4 / 750 * 100vw);
 }
 .before\:w-full::before {
   content: var(--tw-content);
@@ -1166,17 +1214,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.before\:bg-contain::before {
-  content: var(--tw-content);
-  background-size: contain;
-}
 .before\:bg-auto::before {
   content: var(--tw-content);
   background-size: auto;
-}
-.before\:bg-cover::before {
-  content: var(--tw-content);
-  background-size: cover;
 }
 .before\:bg-no-repeat::before {
   content: var(--tw-content);
@@ -1223,6 +1263,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .after\:h-full::after {
   content: var(--tw-content);
   height: 100%;
+}
+.after\:h-\[calc\(4\/750\*100vw\)\]::after {
+  content: var(--tw-content);
+  height: calc(4 / 750 * 100vw);
 }
 .after\:w-full::after {
   content: var(--tw-content);

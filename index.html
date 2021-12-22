@@ -156,20 +156,9 @@
       </div>
     </div> -->
     <!-- main contents -->
-    <div
-      class="mr-0 overflow-hidden w-auto min-h-[600px] text-[10px] bg-gray-600"
-    >
+    <div class="mr-0 overflow-hidden w-full m-0">
       <article
-        class="
-          p-0
-          w-full
-          min-h-[600px]
-          break-normal
-          relative
-          min-w-[320px]
-          text-gray-700
-          block
-        "
+        class="p-0 w-full min-h-0 break-normal relative min-w-[320px] m-0 block"
       >
         <div>
           <header class="m-0 relative block">
@@ -185,18 +174,18 @@
                 mx-auto
                 bg-repeat
                 bg-[center_top]
-                bg-cover
+                bg-contain
                 overflow-hidden
                 min-h-[100vh]
               "
               style="background-image: url(./img/background.png)"
             >
-              <div class="relative pt-[53px] overflow-hidden">
+              <div class="relative pt-[calc(53/750*100vw)] overflow-hidden">
                 <!-- background -->
                 <div
                   class="
                     opacity-100
-                    scale-[0]
+                    scale-[1]
                     absolute
                     w-full
                     h-full
@@ -212,12 +201,12 @@
                     class="
                       relative
                       opacity-[1]
-                      w-[260px]
-                      ml-[46px]
+                      w-[calc(260/750*100vw)]
+                      ml-[calc(46/750*100vw)]
                       px-0
-                      pt-[18px]
-                      pb-[21px]
-                      text-white text-[26px]
+                      pt-[calc(18/750*100vw)]
+                      pb-[calc(21/750*100vw)]
+                      text-white text-[calc(26/750*100vw)]
                       leading-none
                       text-center
                       font-bold
@@ -225,7 +214,7 @@
                       tracking-tight
                       before:w-full
                       before:absolute
-                      before:h-[4px]
+                      before:h-[calc(4/750*100vw)]
                       before:top-0
                       before:left-0
                       before:right-0
@@ -234,7 +223,7 @@
                       before:mx-auto
                       after:w-full
                       after:absolute
-                      after:h-[4px]
+                      after:h-[calc(4/750*100vw)]
                       after:bottom-0
                       after:left-0
                       after:right-0
@@ -243,20 +232,20 @@
                       after:mx-auto
                     "
                   >
-                    11/1 MON - 12/25 SAT
+                    11/1 <small>MON</small> - 12/25 <small>SAT</small>
                   </p>
                   <div
                     class="
                       absolute
                       opacity-[1]
-                      top-[12px]
-                      right-[20px]
+                      top-[calc(12/750*100vw)]
+                      right-[calc(20/750*100vw)]
+                      w-[calc(198/750*100vw)]
+                      h-[calc(198/750*100vw)]
                       overflow-hidden
                       indent-[100%]
                       whitespace-nowrap
-                      w-[198px]
-                      h-[198px]
-                      bg-no-repeat bg-center
+                      bg-no-repeat bg-center bg-contain
                     "
                     style="background-image: url(./img/season.png)"
                   >
@@ -266,15 +255,15 @@
                     class="
                       relative
                       opacity-[1]
-                      mt-[29px]
+                      mt-[calc(29/750*100vw)]
+                      ml-[calc(48/750*100vw)]
                       mr-0
                       mb-0
-                      ml-[48px]
+                      w-[calc(379/750*100vw)]
+                      h-[calc(269/750*100vw)]
                       overflow-hidden
                       indent-[100%]
                       whitespace-nowrap
-                      w-[379px]
-                      h-[269px]
                       bg-no-repeat bg-center bg-contain
                     "
                     style="background-image: url(./img/title.png)"
@@ -285,15 +274,15 @@
                     class="
                       relative
                       opacity-[1]
-                      mt-[30px]
+                      mt-[calc(30/750*100vw)]
                       mr-0
-                      mb-[3306px]
-                      ml-[51px]
+                      mb-[calc(3306/750*100vw)]
+                      ml-[calc(51/750*100vw)]
+                      w-[calc(391/750*100vw)]
+                      h-[calc(26/750*100vw)]
                       overflow-hidden
                       indent-[100%]
                       whitespace-nowrap
-                      w-[391px]
-                      h-[26px]
                       bg-no-repeat bg-center bg-contain
                     "
                     style="background-image: url(./img/copy.png)"
