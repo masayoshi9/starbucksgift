@@ -380,7 +380,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.translate-x-0, .translate-y-0, .translate-y-\[-1037px\], .translate-y-\[calc\(-1037\/750\*100vw\)\], .scale-\[1\] {
+.translate-x-0, .translate-y-0, .translate-y-\[calc\(-1037\/750\*100vw\)\], .translate-y-\[calc\(-2745\/750\*100vw\)\], .scale-\[1\] {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -424,78 +424,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .left-\[calc\(406\/750\*100vw\)\] {
   left: calc(406 / 750 * 100vw);
-}
-.top-\[358px\] {
-  top: 358px;
-}
-.left-\[380px\] {
-  left: 380px;
-}
-.top-\[335px\] {
-  top: 335px;
-}
-.left-\[470px\] {
-  left: 470px;
-}
-.top-\[354px\] {
-  top: 354px;
-}
-.left-\[662px\] {
-  left: 662px;
-}
-.top-\[270px\] {
-  top: 270px;
-}
-.left-\[431px\] {
-  left: 431px;
-}
-.top-\[689px\] {
-  top: 689px;
-}
-.left-\[186px\] {
-  left: 186px;
-}
-.top-\[622px\] {
-  top: 622px;
-}
-.left-\[185px\] {
-  left: 185px;
-}
-.top-\[681px\] {
-  top: 681px;
-}
-.left-\[520px\] {
-  left: 520px;
-}
-.top-\[676px\] {
-  top: 676px;
-}
-.left-\[55px\] {
-  left: 55px;
-}
-.top-\[912px\] {
-  top: 912px;
-}
-.left-\[381px\] {
-  left: 381px;
-}
-.top-\[1001px\] {
-  top: 1001px;
-}
-.left-\[-22px\] {
-  left: -22px;
-}
-.top-\[1180px\] {
-  top: 1180px;
-}
-.left-\[608px\] {
-  left: 608px;
-}
-.top-\[1002px\] {
-  top: 1002px;
-}
-.left-\[52px\] {
-  left: 52px;
 }
 .top-\[calc\(358\/750\*100vw\)\] {
   top: calc(358 / 750 * 100vw);
@@ -569,11 +497,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .left-\[calc\(52\/750\*100vw\)\] {
   left: calc(52 / 750 * 100vw);
 }
+.top-\[calc\(1205\/750\*100vw\)\] {
+  top: calc(1205 / 750 * 100vw);
+}
+.left-\[calc\(25\/750\*100vw\)\] {
+  left: calc(25 / 750 * 100vw);
+}
 .z-\[1010\] {
   z-index: 1010;
 }
 .z-\[1000\] {
   z-index: 1000;
+}
+.z-\[1\] {
+  z-index: 1;
 }
 .float-left {
   float: left;
@@ -634,11 +571,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ml-\[calc\(51\/750\*100vw\)\] {
   margin-left: calc(51 / 750 * 100vw);
 }
+.ml-\[calc\(25\/750\*100vw\)\] {
+  margin-left: calc(25 / 750 * 100vw);
+}
+.ml-\[calc\(107\/750\*100vw\)\] {
+  margin-left: calc(107 / 750 * 100vw);
+}
+.ml-\[calc\(80\/750\*100vw\)\] {
+  margin-left: calc(80 / 750 * 100vw);
+}
 .box-border {
   box-sizing: border-box;
 }
 .block {
   display: block;
+}
+.flex {
+  display: flex;
 }
 .table {
   display: table;
@@ -682,42 +631,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[calc\(85\/750\*100vw\)\] {
   height: calc(85 / 750 * 100vw);
 }
-.h-\[44px\] {
-  height: 44px;
-}
-.h-\[238px\] {
-  height: 238px;
-}
-.h-\[283px\] {
-  height: 283px;
-}
-.h-\[292px\] {
-  height: 292px;
-}
-.h-\[351px\] {
-  height: 351px;
-}
-.h-\[329px\] {
-  height: 329px;
-}
-.h-\[121px\] {
-  height: 121px;
-}
-.h-\[321px\] {
-  height: 321px;
-}
-.h-\[339px\] {
-  height: 339px;
-}
-.h-\[215px\] {
-  height: 215px;
-}
-.h-\[90px\] {
-  height: 90px;
-}
-.h-\[241px\] {
-  height: 241px;
-}
 .h-\[calc\(44\/750\*100vw\)\] {
   height: calc(44 / 750 * 100vw);
 }
@@ -742,6 +655,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[calc\(321\/750\*100vw\)\] {
   height: calc(321 / 750 * 100vw);
 }
+.h-\[calc\(339\/750\*100vw\)\] {
+  height: calc(339 / 750 * 100vw);
+}
 .h-\[calc\(215\/750\*100vw\)\] {
   height: calc(215 / 750 * 100vw);
 }
@@ -750,6 +666,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .h-\[calc\(241\/750\*100vw\)\] {
   height: calc(241 / 750 * 100vw);
+}
+.h-\[calc\(172\/750\*100vw\)\] {
+  height: calc(172 / 750 * 100vw);
 }
 .min-h-0 {
   min-height: 0px;
@@ -793,42 +712,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[calc\(130\/750\*100vw\)\] {
   width: calc(130 / 750 * 100vw);
 }
-.w-\[53px\] {
-  width: 53px;
-}
-.w-\[360px\] {
-  width: 360px;
-}
-.w-\[104px\] {
-  width: 104px;
-}
-.w-\[257px\] {
-  width: 257px;
-}
-.w-\[542px\] {
-  width: 542px;
-}
-.w-\[382px\] {
-  width: 382px;
-}
-.w-\[222px\] {
-  width: 222px;
-}
-.w-\[68px\] {
-  width: 68px;
-}
-.w-\[198px\] {
-  width: 198px;
-}
-.w-\[371px\] {
-  width: 371px;
-}
-.w-\[138px\] {
-  width: 138px;
-}
-.w-\[275px\] {
-  width: 275px;
-}
 .w-\[calc\(53\/750\*100vw\)\] {
   width: calc(53 / 750 * 100vw);
 }
@@ -862,6 +745,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[calc\(275\/750\*100vw\)\] {
   width: calc(275 / 750 * 100vw);
 }
+.w-\[calc\(597\/750\*100vw\)\] {
+  width: calc(597 / 750 * 100vw);
+}
 .min-w-\[320px\] {
   min-width: 320px;
 }
@@ -882,12 +768,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-translate-y: 0px;
   transform: var(--tw-transform);
 }
-.translate-y-\[-1037px\] {
-  --tw-translate-y: -1037px;
-  transform: var(--tw-transform);
-}
 .translate-y-\[calc\(-1037\/750\*100vw\)\] {
   --tw-translate-y: calc(-1037 / 750 * 100vw);
+  transform: var(--tw-transform);
+}
+.translate-y-\[calc\(-2745\/750\*100vw\)\] {
+  --tw-translate-y: calc(-2745 / 750 * 100vw);
   transform: var(--tw-transform);
 }
 .scale-\[1\] {
@@ -1054,6 +940,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-float1 {
   -webkit-animation: float1key 1.5s 2.2s infinite alternate ease-in-out;
           animation: float1key 1.5s 2.2s infinite alternate ease-in-out;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
 }
 .overflow-hidden {
   overflow: hidden;
