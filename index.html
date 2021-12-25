@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="dist.css" />
     <title>Document</title>
     <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
     <!-- AOS -->
   </head>
   <body>
     <!-- AOS -->
     <script>
+      import AOS from "aos";
+      import "aos/dist/aos.css"; // You can also use <link> for styles
+
       AOS.init({
+        anchorPlacement: bottom - center,
         duration: 1500,
         once: true,
       });
@@ -613,10 +617,7 @@
                             z-[1]
                           "
                         >
-                          <div
-                            data-aos="fade-up"
-                            data-aos-anchor-placement="center-bottom"
-                          >
+                          <div data-aos="fade-up">
                             <div
                               class="
                                 overflow-hidden
