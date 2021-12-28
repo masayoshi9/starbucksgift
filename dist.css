@@ -781,6 +781,54 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-scale-y: 1;
   transform: var(--tw-transform);
 }
+@-webkit-keyframes poyonkey {
+
+  0% {
+    transform: scale(0.4, 0.4);
+  }
+
+  40% {
+    transform: scale(1.2, 1.2);
+  }
+
+  60% {
+    transform: scale(1, 1);
+  }
+
+  80% {
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes poyonkey {
+
+  0% {
+    transform: scale(0.4, 0.4);
+  }
+
+  40% {
+    transform: scale(1.2, 1.2);
+  }
+
+  60% {
+    transform: scale(1, 1);
+  }
+
+  80% {
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.animate-poyon {
+  -webkit-animation: poyonkey 1.5s ease-out;
+          animation: poyonkey 1.5s ease-out;
+}
 @-webkit-keyframes topItemsPop1key {
 
   0% {
@@ -1084,6 +1132,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[calc\(26\/750\*100vw\)\] {
   font-size: calc(26 / 750 * 100vw);
 }
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
 .font-normal {
   font-weight: 400;
 }
@@ -1108,6 +1164,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-blue-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 .opacity-100 {
   opacity: 1;
@@ -1237,4 +1305,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .after\:bg-no-repeat::after {
   content: var(--tw-content);
   background-repeat: no-repeat;
+}
+.hover\:text-red-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+.hover\:text-blue-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+.active\:text-red-600:active {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+.active\:text-green-700:active {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity));
 }

@@ -17,6 +17,7 @@ module.exports = {
         float2: "float2key 2.0s 1.7s infinite alternate ease-in-out",
         float3: "float3key 2.4s 1.2s infinite alternate ease-in-out",
         float4: "float4key 2.7s 1.1s infinite alternate ease-in-out",
+        poyon: "poyonkey 1.5s ease-out",
       },
       keyframes: {
         feedinkey: {
@@ -52,11 +53,20 @@ module.exports = {
           "0%": { transform: "translate(0px, 0px)" },
           "100%": { transform: "translate(0px, calc(6/750*100vw))" },
         },
+        poyonkey: {
+          "0%": { transform: "scale(0.4, 0.4)" },
+          "40%": { transform: "scale(1.2, 1.2)" },
+          "60%": { transform: "scale(1, 1)" },
+          "80%": { transform: "scale(1.1, 1.1)" },
+          "100%": { transform: "scale(1, 1)" },
+        },
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ["responsive", "hover", "focus", "active"],
+    },
   },
   plugins: [],
 };
