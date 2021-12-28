@@ -17,7 +17,7 @@ module.exports = {
         float2: "float2key 2.0s 1.7s infinite alternate ease-in-out",
         float3: "float3key 2.4s 1.2s infinite alternate ease-in-out",
         float4: "float4key 2.7s 1.1s infinite alternate ease-in-out",
-        poyon: "poyonkey 1.5s ease-out",
+        poyon: "poyonkey 1.5s infinite alternate ease-in-out",
       },
       keyframes: {
         feedinkey: {
