@@ -826,8 +826,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 .animate-poyon {
-  -webkit-animation: poyonkey 1.5s ease-out;
-          animation: poyonkey 1.5s ease-out;
+  -webkit-animation: poyonkey 1.5s infinite alternate ease-in-out;
+          animation: poyonkey 1.5s infinite alternate ease-in-out;
 }
 @-webkit-keyframes topItemsPop1key {
 
@@ -884,30 +884,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-float3 {
   -webkit-animation: float3key 2.4s 1.2s infinite alternate ease-in-out;
           animation: float3key 2.4s 1.2s infinite alternate ease-in-out;
-}
-@-webkit-keyframes float4key {
-
-  0% {
-    transform: translate(0px, 0px);
-  }
-
-  100% {
-    transform: translate(0px, calc(6/750*100vw));
-  }
-}
-@keyframes float4key {
-
-  0% {
-    transform: translate(0px, 0px);
-  }
-
-  100% {
-    transform: translate(0px, calc(6/750*100vw));
-  }
-}
-.animate-float4 {
-  -webkit-animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
-          animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
 }
 @-webkit-keyframes topItemsPop3key {
 
@@ -988,6 +964,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-float1 {
   -webkit-animation: float1key 1.5s 2.2s infinite alternate ease-in-out;
           animation: float1key 1.5s 2.2s infinite alternate ease-in-out;
+}
+@-webkit-keyframes float4key {
+
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, calc(6/750*100vw));
+  }
+}
+@keyframes float4key {
+
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, calc(6/750*100vw));
+  }
+}
+.animate-float4 {
+  -webkit-animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
+          animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
 }
 .flex-col {
   flex-direction: column;
@@ -1132,10 +1132,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[calc\(26\/750\*100vw\)\] {
   font-size: calc(26 / 750 * 100vw);
 }
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
@@ -1165,14 +1161,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.text-blue-800 {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
-}
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
@@ -1182,6 +1170,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .opacity-\[1\] {
   opacity: 1;
+}
+.opacity-\[0\] {
+  opacity: 0;
 }
 .outline-0 {
   outline-width: 0px;
@@ -1306,6 +1297,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: var(--tw-content);
   background-repeat: no-repeat;
 }
+@keyframes float4key {
+
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, calc(6/750*100vw));
+  }
+}
+.hover\:animate-float4:hover {
+  -webkit-animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
+          animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
+}
 .hover\:text-red-600:hover {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
@@ -1314,9 +1319,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
-.active\:text-red-600:active {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+@keyframes float4key {
+
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, calc(6/750*100vw));
+  }
+}
+.focus\:animate-float4:focus {
+  -webkit-animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
+          animation: float4key 2.7s 1.1s infinite alternate ease-in-out;
 }
 .active\:text-green-700:active {
   --tw-text-opacity: 1;
