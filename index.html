@@ -234,31 +234,33 @@
                       after:bg-white
                       after:my-0
                       after:mx-auto
+                      z-[1]
                     "
                   >
                     11/1 <small class="hover:text-red-600">MON</small> - 12/25
                     <small>SAT</small>
                   </p>
-                  <div
-                    class="
-                      absolute
-                      opacity-[1]
-                      top-[calc(12/750*100vw)]
-                      right-[calc(20/750*100vw)]
-                      w-[calc(198/750*100vw)]
-                      h-[calc(198/750*100vw)]
-                      overflow-hidden
-                      indent-[100%]
-                      whitespace-nowrap
-                      bg-no-repeat bg-center bg-contain
-                      hover:animate-poyon
-                      origin-center
-                    "
-                    style="background-image: url(./img/season.png)"
-                  >
-                    2021 STARBUCKS HOLIDAY
-                  </div>
-
+                  <p class="z-[1]">
+                    <div
+                      class="
+                        absolute
+                        opacity-[0]
+                        top-[calc(12/750*100vw)]
+                        right-[calc(20/750*100vw)]
+                        w-[calc(198/750*100vw)]
+                        h-[calc(198/750*100vw)]
+                        overflow-hidden
+                        indent-[100%]
+                        whitespace-nowrap
+                        bg-no-repeat bg-center bg-contain
+                        animate-poyon
+                        origin-center
+                      "
+                      style="background-image: url(./img/season.png)"
+                    >
+                      2021 STARBUCKS HOLIDAY
+                    </div>
+                  </p>
                   <h1
                     class="
                       relative
@@ -329,6 +331,7 @@
                       ></div>
                       <div
                         class="
+                          z-[1]
                           opacity-[1]
                           translate-x-0 translate-y-0
                           absolute
@@ -343,7 +346,8 @@
                           after:h-full
                           after:bg-no-repeat
                           bg-cover
-                          animate-float4
+                          hover:animate-float4
+                          active:animate-float4
                         "
                         style="background-image: url(./img/item-1.png)"
                       ></div>
